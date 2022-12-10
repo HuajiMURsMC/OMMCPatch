@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# OMMC Patch
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+修复了1.19.2的OMMC不能正常执行 `/highlightWaypoint` 指令进行高亮的 Bug

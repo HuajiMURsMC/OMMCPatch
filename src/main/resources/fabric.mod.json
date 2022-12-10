@@ -1,38 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ommcpatch",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "OMMC Patch",
+  "description": "修复了1.19.2的OMMC不能正常执行 `/highlightWaypoint` 指令进行高亮的 Bug",
   "authors": [
-    "Me!"
+    "Huaji_MUR233"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/HuajiMURsMC/OMMCPatch",
+    "sources": "https://github.com/HuajiMURsMC/OMMCPatch"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "WTFPL",
+  "icon": "assets/ommcpatch/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ommcpatch.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "ommc": "*"
   }
 }
